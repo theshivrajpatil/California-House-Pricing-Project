@@ -15,7 +15,7 @@ Proximity to the city center
 Number of rooms
 Latitude and longitude
 Population density
-# We’ll treat this as a simulation: suppose the California data is Gurgaon data, and suppose we are building this model for a neighborhood where both you and I live or work nearby.
+We’ll treat this as a simulation: suppose the California data is Gurgaon data, and suppose we are building this model for a neighborhood where both you and I live or work nearby.
 
 Once the model is developed and understood, we can later adapt the same approach to real Gurgaon data when available, using the same techniques and logic.
 
