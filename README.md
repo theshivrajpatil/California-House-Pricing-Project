@@ -25,3 +25,5 @@ Before we build the model, we need to understand what kind of machine learning p
 First, we’ll check if this is a supervised or unsupervised learning task. Since we have historical data with house prices (our target), and we want to predict the price of a house based on input features, this is a supervised learning problem.
 
 Next, we observe that the model is predicting one continuous label — the price of a house — based on several input features. This makes it a univariate regression problem.
+# Creating Datasets.
+Creating tranning and test dataset. we train our model on train dataset and checks the accuracy with test dataset.
