@@ -27,3 +27,6 @@ First, we’ll check if this is a supervised or unsupervised learning task. Sinc
 Next, we observe that the model is predicting one continuous label — the price of a house — based on several input features. This makes it a univariate regression problem.
 # Creating Datasets.
 Creating tranning and test dataset. we train our model on train dataset and checks the accuracy with test dataset.
+
+# Further Preprocessing & Handling Missing Data
+Before feeding your data into a machine learning algorithm, you need to clean and prepare it.
