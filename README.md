@@ -30,3 +30,6 @@ Creating tranning and test dataset. we train our model on train dataset and chec
 
 # Further Preprocessing & Handling Missing Data
 Before feeding your data into a machine learning algorithm, you need to clean and prepare it.
+
+# Handling Categorical values
+Most machine learning algorithms work best with numerical data. But real-world datasets often contain categorical or text attributes. Let’s understand how to handle these in Scikit-Learn using the ocean_proximity column from the California housing dataset as an example.
