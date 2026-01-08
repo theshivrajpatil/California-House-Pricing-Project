@@ -31,3 +31,7 @@ Before feeding your data into a machine learning algorithm, you need to clean an
 
 # Handling Categorical values
 Most machine learning algorithms work best with numerical data. But real-world datasets often contain categorical or text attributes. Let’s understand how to handle these in Scikit-Learn using the ocean_proximity column from the California housing dataset as an example.
+
+# Feature scaling in sklearn
+Feature scaling is a crucial preprocessing step. Most machine learning algorithms perform poorly when input features have vastly different scales.
+
