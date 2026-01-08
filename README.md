@@ -35,3 +35,7 @@ Most machine learning algorithms work best with numerical data. But real-world d
 # Feature scaling in sklearn
 Feature scaling is a crucial preprocessing step. Most machine learning algorithms perform poorly when input features have vastly different scales.
 
+# Why Scaling Is Needed
+Many models (like Linear Regression, KNN, SVMs, Gradient Descent-based algorithms) assume features are on a similar scale.
+Without scaling, features with larger ranges can dominate model behavior.
+Scaling makes training more stable and faster.
