@@ -39,3 +39,8 @@ Feature scaling is a crucial preprocessing step. Most machine learning algorithm
 Many models (like Linear Regression, KNN, SVMs, Gradient Descent-based algorithms) assume features are on a similar scale.
 Without scaling, features with larger ranges can dominate model behavior.
 Scaling makes training more stable and faster.
+
+# Constructing Pipelines in sklearn
+As datasets grow more complex, data preprocessing often involves multiple steps such as imputing missing values, scaling features, encoding categorical variables, etc. These steps must be applied in the correct order and consistently across training, validation, test, and future production data.
+To streamline this process, Scikit-Learn provides the Pipeline class — a powerful utility for chaining data transformations.
+
