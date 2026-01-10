@@ -44,3 +44,12 @@ Scaling makes training more stable and faster.
 As datasets grow more complex, data preprocessing often involves multiple steps such as imputing missing values, scaling features, encoding categorical variables, etc. These steps must be applied in the correct order and consistently across training, validation, test, and future production data.
 To streamline this process, Scikit-Learn provides the Pipeline class — a powerful utility for chaining data transformations.
 
+# ColumnTransformer and Consolidating the Pipeline
+In this section, we will consolidate everything we've done so far into one final script using Scikit-Learn pipelines. This includes:
+
+Creating a stratified test set
+Handling missing values
+Encoding categorical variables
+Scaling numerical features
+Combining everything using Pipeline and ColumnTransformer
+This will ensure clean, modular, and reproducible code — perfect for production and education.
