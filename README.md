@@ -53,3 +53,10 @@ Encoding categorical variables
 Scaling numerical features
 Combining everything using Pipeline and ColumnTransformer
 This will ensure clean, modular, and reproducible code — perfect for production and education.
+
+# Training ML Algorithms on Preprocessed data
+Now that our data is preprocessed, let’s move on to training machine learning models and evaluating their performance. We'll start with:
+
+Linear Regression
+Decision Tree Regressor
+Random Forest Regressor
