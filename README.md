@@ -60,3 +60,22 @@ Now that our data is preprocessed, let’s move on to training machine learning 
 Linear Regression
 Decision Tree Regressor
 Random Forest Regressor
+
+# Model Persistence and Inference with Joblib
+Lets now summarize how to train a Random Forest model on California housing data, save the model and preprocessing pipeline using joblib, and reuse the model later for inference on new data (input.csv). This approach helps avoid retraining the model every time, improving performance and enabling reproducibility.
+
+# Why These Steps?
+1. Why Train Once and Save?
+Training models repeatedly is time-consuming and computationally expensive.
+Saving the model (model.pkl) and preprocessing pipeline (pipeline.pkl) ensures you can quickly load and run inference anytime in the future.
+2. Why Use a Preprocessing Pipeline?
+Raw data needs to be cleaned, scaled, and encoded before model training.
+A Pipeline automates this transformation and ensures identical preprocessing during inference.
+3. Why Use Joblib?
+joblib efficiently serializes large NumPy arrays (like in sklearn models).
+Faster and more suitable than pickle for scikit-learn objects.
+4. Why the If-Else Logic?
+The program checks if a saved model exists.
+
+If not, it trains and saves the model.
+If it does, it skips training and only runs inference, saving time.
